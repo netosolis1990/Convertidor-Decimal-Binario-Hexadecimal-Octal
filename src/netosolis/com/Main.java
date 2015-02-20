@@ -240,7 +240,7 @@ public class Main extends javax.swing.JFrame {
 
     private void Hexadecimal(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Hexadecimal
         char k = evt.getKeyChar();
-        if((k < '0' || k > 'd') && k != '\b'){
+        if((k < '0' || k > 'f') && k != '\b'){
             evt.consume();
         }
         else{
